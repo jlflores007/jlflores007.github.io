@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('/Resources/Fonts/UbuntuMono-Regular.ttf') format('truetype');
+}
+
+/* Universal */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2C3639;
+    color: #DCD7C9;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading style */
+h1{
+    background-color: #3F4E4F;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 60px;
+    border: 5px double #A27B5C;
+    border-radius: 12px;
+}
+
+
+span{
+    text-decoration: overline underline;
+    text-decoration-color: #A27B5C;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+}
+
+
+/* table styling */
+table{
+    margin: 0 auto;
+}
+
+.values{
+    margin-top: 45px;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid #A27B5C;
+}
+
+th, td{
+    padding: 0 15px;
+    background-color: #3F4E4F;
+    height: 40px;
+}
+
+/* footer style */
+h4,h6{
+    text-align: center;
+}
+
